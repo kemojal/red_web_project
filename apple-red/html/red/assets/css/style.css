@@ -1,0 +1,224 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+/***** headings style *****/
+h1,
+h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 300;
+    color: #ff0057;
+    line-height: 50px;
+    font-style: italic;
+}
+
+h3 {
+    /* (shoe, speaker, shoe title): */
+font-family: Helvetica-Bold;
+font-size: 48px;
+color: #FF0000;
+letter-spacing: 0;
+text-align: justify;
+}
+
+/***** general image style*****/
+img {
+    max-width: 100%;
+    mix-blend-mode: darken;
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+/***** image in the home page style *****/
+.cover-img{
+    max-width: 900px;
+    max-height: 600px;
+    width: auto;
+    height: auto; 
+    mix-blend-mode: darken;
+    
+}
+
+/***** superscript tag style *****/
+sup{
+    color: orange;
+    font-size: 12px;
+}
+.medium-paragraph {
+    font-size: 17px;
+    line-height: 32px;
+}
+
+/***** All sections container style *****/
+
+.section-container {
+    margin: 0 auto;
+    padding-bottom: 80px;
+    background: white;
+}
+
+
+
+.section-container-image-bg .section-description p {
+    opacity: 1;
+}
+
+
+
+/***** Top navbar *****/
+
+.navbar {
+    background: rgb(255, 0, 0);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    width: 105px;
+    background: url(../img/logo.png) left center no-repeat;
+    border: 0;
+    text-indent: -99999px;
+}
+
+/***** Top content style *****/
+
+.inner-bg {
+    padding: 210px 0;
+    background-color: #DC0000;
+    height: 120vh !important;
+    overflow: hidden;
+}
+.row{
+    justify-content: center;
+}
+.top-content .text {
+    color: #fff;
+}
+
+.top-content .text h1 {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.top-content .description {
+    margin: 30px 0 10px 0;
+}
+
+.top-content .description p {
+    opacity: 0.8;
+}
+
+/***** shoe-grid-container *****/
+
+.shoe-grid-container {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.shoe-grid-container h3 {
+    margin-top: 0;
+    padding: 100px 0 10px 0;
+}
+
+/***** speaker-grid-container *****/
+
+.speaker-grid-container {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.speaker-grid-container h3 {
+    margin-top: 0;
+}
+
+.speaker-grid-container-text .medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/***** beats-grid-container *****/
+
+.beats-grid-container {
+    margin-top: 30px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.beats-grid-container h3 {
+    margin-top: 0;
+    padding: 0 0 10px 0;
+    
+}
+
+.discription{
+    /* Lorem ipsum dolor si: */
+font-family: Helvetica;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0;
+text-align: justify;
+}
+
+.red-text{
+    /* (RED) title: */
+font-family: Helvetica-Bold;
+font-size: 72px;
+color: #FFFFFF;
+letter-spacing: 20px;
+}
+
+    /* shoe speaker, beats title style */
+.header-titles{
+font-family: Helvetica-Bold;
+font-size: 24px;
+color: #FFFFFF;
+letter-spacing: 0;
+}
+
+ /* red text color */
+.red{
+    color: red;
+}
